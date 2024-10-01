@@ -1,0 +1,31 @@
+body{
+    background-color: gray;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+.titulo{
+    color: orange;
+    margin-top: 60px;
+    font-size: 60px;
+    width: 7ch;
+    user-select: none;
+    text-decoration: none;
+
+}
+.titulo:hover{
+    transform: scale(1.1);
+
+    cursor: pointer;
+}
+p{
+    color: white;
+}
+.hrefDaUtfpr{
+    text-decoration: none;
+}
+.inputDoNome{
+    width: 200px;
+    height: 50px;
+}
