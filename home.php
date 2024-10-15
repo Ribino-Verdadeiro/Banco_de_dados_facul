@@ -50,7 +50,15 @@ if ($conn->connect_error) {
         35 a 50% >= 8,0 -> ok por compensação <br>
     </p>
 
+    <div class="containerAulas"> 
+      <div class="aula">
+        <a href="Aula1.php"><button class="aula"> AULA 1 </button> </a>
+      </div>
 
+      <div class="aula">
+        <a href="Aula2.php"><button class="aula"> AULA 2 </button> </a>
+      </div>
+    </div>
 
     <script src='index.js'></script>
 </body>
